@@ -1,0 +1,68 @@
+---
+pagetitle: "Edward Hoffmann"
+toc: false
+format:
+  html:
+    title-block-style: none
+---
+
+::: {.hero}
+
+# Edward Hoffmann
+
+Economics and statistics (UC Davis, '25)
+
+:::
+
+## Bio {#bio}
+
+I'm passionate about the theoretical foundations of decision-making and learning. My academic background includes graduate coursework in optimization, game theory, and classical ML.
+
+Fun fact: I used to play a lot of Magic: the Gathering and was once interviewed by MTGGoldfish.
+
+## Contact {#contact}
+
+- **GitHub:** [github.com/edwardchoffmann](https://github.com/edwardchoffmann)
+- **LinkedIn:** [linkedin.com/in/edward-hoffmann](https://www.linkedin.com/in/edward-hoffmann/)
+
+## Interests {#interests}
+
+### Research & technical
+
+- Decision making under uncertainty: algorithmic game theory and reinforcement learning.
+- Deep learning dynamics: structural and geometric properties of learning in neural networks (inspired by [Florentin Guth](https://florentinguth.github.io/publication/rainbow/), [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/), and others).
+- System dynamics & control: ergodicity, optimal control, and resource allocation.
+
+### Hobbies
+
+- Exercise
+- Reading history and philosophy
+- Cooking, gardening, and sewing
+- Strategy games like Magic: the Gathering
+
+## Projects {#projects}
+
+### Fitting Hawkes processes on text-message data
+
+Fitting and comparing Hawkes process specifications to message timestamps—testing which excitation structures best capture bursts, reply chains, and long-run rhythm in conversational data. *Nearly complete.*
+
+### Upcoming {#upcoming}
+
+### Learned geometry of “thinking” in transformers
+
+Exploring how depth and residual structure shape internal representations during training—connecting ideas from [Florentin Guth](https://florentinguth.github.io/publication/rainbow/) on layer-wise dynamics with [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/) on geometry and optimization in deep networks. *Planned / early stage (if I can run stuff locally without too many issues)*
+
+### Random future ideas and potential projects
+
+- Mess around with various RL architectures and use-cases
+- MtG RL (the dream)
+- Visual math exploration a la 3b1b about differential geomeotry, geodesics, and gradient descent
+    - https://geomstats.github.io/index.html
+- Jane Street puzzle solutions
+- Some geospatial analysis (pretty but I already do this stuff at work so not currently something I want to work on in my free time so we'll see)
+- Playing with signal processing/error correction methods
+- Explore/play with an ergodic system
+    - https://ergodicityeconomics.com/2023/10/20/an-ergodicity-perspective-on-reinforcement-learning/
+- PINNs/Energy based model stuff
+    - https://energy-based-model.github.io/Energy-based-Model-MIT/
+    - Steve Brunton
