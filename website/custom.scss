@@ -2,6 +2,11 @@
 
 /*-- scss:rules --*/
 
+/* Quarto can emit a second empty <header id="title-block-header"> when title: is set */
+#title-block-header:not(.quarto-title-block) {
+  display: none;
+}
+
 /* In-page anchors clear the sticky navbar */
 h1, h2, h3, h4, h5, h6 {
   scroll-margin-top: 4.5rem;
@@ -11,6 +16,32 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem 0 1rem;
 }
 
-.hero h1 {
-  font-weight: 700;
+/* Photo left, copy right; DOM order is photo then .hero-copy */
+.hero-with-photo {
+  display: grid;
+  grid-template-columns: minmax(10rem, 14rem) 1fr;
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.hero-with-photo .hero-copy {
+  min-width: 0;
+}
+
+@media (max-width: 576px) {
+  .hero-with-photo {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-photo {
+    max-width: 14rem;
+    margin-inline: auto;
+  }
+}
+
+.hero-photo {
+  aspect-ratio: 1;
+  border-radius: 0.5rem;
+  border: 2px dashed rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.04);
 }

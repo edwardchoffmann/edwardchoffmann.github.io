@@ -1,0 +1,101 @@
+---
+title: "Fitting Hawkes processes on text-message data"
+date: 2026-04-05
+toc: true
+---
+
+## Abstract
+
+## Introduction
+
+<!-- Why Hawkes processes for messaging? What question does the project answer? -->
+
+- This was a hammer looking for a nail.
+- Interested in Hawkes processes, wanted to find something approachable to apply it to
+- Definitely strong limitations
+
+## Data
+
+<!-- Source of timestamps, preprocessing, train/validation split, privacy considerations. -->
+
+- Timestamp data from a Messenger chat, anonymized, no content included
+- Picked most active chat
+- Picked a random quarter from the past couple years to keep computation reasonable
+- Timestamps might not be in my timezone
+- Data didn't seem like it needed cleaning
+- Immediate takeaways are daily cycle aspect, strong self-excitation, but also long periods of silence
+
+
+## Models
+
+<!-- Hawkes kernel(s), multivariate vs univariate, baseline intensity, identification. -->
+
+- Exponential
+- Sum Exponential
+- Powerlaw
+- Diurnal
+- Fast Fourier Transform
+- Hidden Markov Model
+
+## Estimation and comparison
+
+<!-- Likelihood / EM / MCMC or whatever you use; criteria for comparing specifications. -->
+
+- Likelihood, just wanted as good of a fit as possible
+
+## Results
+
+<!-- Key figures and tables; what structure best fits bursts, reply chains, long-run rhythm. -->
+
+- Everything with a powerlaw was able to fit the self-excitation aspect pretty well, but all failed to properly model end of conversation/silence periods
+- Likely need a way to model latent variable or introduce more information to the model via either text message size (as a proxy for size, intensity of conversation) or message content (to figure out whether or not a conversation has run its course)
+
+
+## Discussion and limitations
+
+<!-- Assumptions, edge cases, what you would do with more data or compute. -->
+
+- Not going for a "good" or generalizable model, just perfect fit for funsies
+- Would run on way more data
+- Non-stationarity would rear its head
+- Person specific texting dynamics 
+- Some sort of temporal/personal CV
+- How to meaningfully parameterize texting conversations?
+Issues:
+    - Different people different params
+    - Data goes back years, non stationairity
+    - Daily cycle of life interrupts proper rhythm and assumptions of model
+    - Combine double texting into a single text?
+        - How to define double texting (some small timedelta?)
+    
+
+Choices/Evolution:
+    - Filter out bots and one sided convos
+    - Choose convo 78 with most data
+    - Choose timeslice with most data 2022 Q4
+    - Fit exponential hawke model, tails aren't well modeled so try powerlaw still not well modeled
+        - Even with time of day regime splitting tails are significantly misfit.
+    - Time of day regime splitting
+        - Overall fit much improved
+    - Optuna for hyperparam search for hawkes process fitting
+        - still getting fat fails but better
+    - Move away from regime splitting to a Hidden Markov Model Hawkes Process bc in some ways it simplifies things
+        - Don't have to decide when to regime split
+        - Don't have to think of ways to preserve time continuity based on regime splitting
+    - Redid exponential plotting so that it actually worked
+    - Redid powerlaw plotting too
+    - Hidden Markov Model Process
+        - Poor fit with expo kernel
+        - Trying powerlaw kernel
+        - Might assume independent events which is obviously violated
+        - How does it "know" when to switch regimes? I'm not giving it any info about the actual conversation.
+    - Diurnal Baseline Model
+        - Barely improved things
+        - One bump is obviously not enough based on EDA plots not sure why I even bothered with this when FFT exists
+    - FFT Baseline Model
+        - Small improvement but still less than I want
+
+
+## Reproducibility
+
+Github Repo

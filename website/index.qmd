@@ -1,4 +1,5 @@
 ---
+title: "Edward Hoffmann"
 pagetitle: "Edward Hoffmann"
 toc: false
 format:
@@ -6,24 +7,25 @@ format:
     title-block-style: none
 ---
 
-::: {.hero}
+::: {.hero .hero-with-photo}
 
-# Edward Hoffmann
-
-Economics and statistics (UC Davis, '25)
+::: {.hero-photo aria-hidden="true"}
 
 :::
 
-## Bio {#bio}
+::: {.hero-copy}
 
-I'm passionate about the theoretical foundations of decision-making and learning. My academic background includes graduate coursework in optimization, game theory, and classical ML.
+Economics and statistics (UC Davis, '25). Currently working as a research and teaching assistant at UC Berkeley and as a quantitative researcher for Helix Consulting.
 
-Fun fact: I used to play a lot of Magic: the Gathering and was once interviewed by MTGGoldfish.
+:::
 
-## Contact {#contact}
+:::
 
-- **GitHub:** [github.com/edwardchoffmann](https://github.com/edwardchoffmann)
-- **LinkedIn:** [linkedin.com/in/edward-hoffmann](https://www.linkedin.com/in/edward-hoffmann/)
+## About {#about}
+
+I'm passionate about the theoretical foundations of decision making and learning. My academic background includes graduate coursework in optimization, game theory, and classical ML.
+
+Fun fact: I used to play a lot of Magic: The Gathering and was once interviewed by MTGGoldfish.
 
 ## Interests {#interests}
 
@@ -38,31 +40,33 @@ Fun fact: I used to play a lot of Magic: the Gathering and was once interviewed 
 - Exercise
 - Reading history and philosophy
 - Cooking, gardening, and sewing
-- Strategy games like Magic: the Gathering
+- Strategy games like Magic: The Gathering
 
 ## Projects {#projects}
 
-### Fitting Hawkes processes on text-message data
+### [A Bird’s-Eye View: Hawkes Processes in Texting Data](posts/hawkes-text-messages.qmd)
 
-Fitting and comparing Hawkes process specifications to message timestamps—testing which excitation structures best capture bursts, reply chains, and long-run rhythm in conversational data. *Nearly complete.*
+Fitting and comparing Hawkes process models to text message data.
 
-### Upcoming {#upcoming}
+## Upcoming {#upcoming}
 
 ### Learned geometry of “thinking” in transformers
 
-Exploring how depth and residual structure shape internal representations during training—connecting ideas from [Florentin Guth](https://florentinguth.github.io/publication/rainbow/) on layer-wise dynamics with [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/) on geometry and optimization in deep networks. *Planned / early stage (if I can run stuff locally without too many issues)*
+Exploring how depth and residual structure shape internal representations during training—connecting ideas from [Florentin Guth](https://florentinguth.github.io/publication/rainbow/) on layer-wise dynamics with [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/) on geometry and optimization in deep networks. *Planned / early stage (if I can run stuff locally without too many issues).*
 
-### Random future ideas and potential projects
+### Random future ideas, potential projects (and notes for me)
 
 - Mess around with various RL architectures and use-cases
 - MtG RL (the dream)
-- Visual math exploration a la 3b1b about differential geomeotry, geodesics, and gradient descent
-    - https://geomstats.github.io/index.html
+- Visual math exploration à la 3b1b about differential geometry, geodesics, and gradient descent
+    - [Differential geometry library](https://geomstats.github.io/index.html)
 - Jane Street puzzle solutions
 - Some geospatial analysis (pretty but I already do this stuff at work so not currently something I want to work on in my free time so we'll see)
 - Playing with signal processing/error correction methods
 - Explore/play with an ergodic system
-    - https://ergodicityeconomics.com/2023/10/20/an-ergodicity-perspective-on-reinforcement-learning/
-- PINNs/Energy based model stuff
-    - https://energy-based-model.github.io/Energy-based-Model-MIT/
-    - Steve Brunton
+    - [Ergodic RL](https://ergodicityeconomics.com/2023/10/20/an-ergodicity-perspective-on-reinforcement-learning/)
+- PINNs / energy-based models
+    - [Energy based models](https://energy-based-model.github.io/Energy-based-Model-MIT/)
+    - [Steve Brunton](https://www.youtube.com/@Eigensteve/playlists?theme=dark)
+    - [Ben Moseley] (https://benmoseley.blog/)
+- Weather forecasting model
