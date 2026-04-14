@@ -51,10 +51,14 @@ Fun fact: I used to play a lot of Magic: The Gathering and was once interviewed 
 Fitting and comparing Hawkes process models to text message data.
 
 ## Upcoming {#upcoming}
+### Functional Dimension as a motivation for MUON
+MUON and functional basis analysis for ReLU NN
+    - [Functional Dimension](https://arxiv.org/pdf/2209.04036)
+    - [MUON](https://kellerjordan.github.io/posts/muon/)
 
 ### Learned geometry of “thinking” in transformers
 
-Exploring how depth and residual structure shape internal representations during training—connecting ideas from [Florentin Guth](https://florentinguth.github.io/publication/rainbow/) on layer-wise dynamics with [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/) on geometry and optimization in deep networks. *Planned / early stage (if I can run stuff locally without too many issues).*
+Exploring how depth and residual structure shape internal representations during training—connecting ideas from [Florentin Guth](https://florentinguth.github.io/publication/rainbow/) on layer-wise dynamics with [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/) on geometry and optimization in deep networks. Hoping I can investigate this with local compute.
 
 ### Random future ideas, potential projects (and notes for me)
 
@@ -70,8 +74,5 @@ Exploring how depth and residual structure shape internal representations during
 - PINNs / energy-based models
     - [Energy based models](https://energy-based-model.github.io/Energy-based-Model-MIT/)
     - [Steve Brunton](https://www.youtube.com/@Eigensteve/playlists?theme=dark)
-    - [Ben Moseley] (https://benmoseley.blog/)
+    - [Ben Moseley](https://benmoseley.blog/)
 - Weather forecasting model
-- MUON and functional basis analysis for ReLU NN
-    - [Functional Dimension] (https://arxiv.org/pdf/2209.04036)
-    - [MUON] (https://kellerjordan.github.io/posts/muon/)
