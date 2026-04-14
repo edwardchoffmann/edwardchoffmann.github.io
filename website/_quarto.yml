@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Edward Hoffmann"
-  site-url: https://edwardchoffmann.github.io/
+  site-url: https://edwardchoffmann.github.io/Quarto/
   description: "Personal site — projects, research, and interests."
   navbar:
     background: primary

@@ -28,9 +28,10 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render site
-        run: quarto render
+      # Website project in website/; index.qmd -> _site/index.html (site home)
+      - name: Render Quarto website
         working-directory: website
+        run: quarto render
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
