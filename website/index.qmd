@@ -52,7 +52,8 @@ Fitting and comparing Hawkes process models to text message data.
 
 ## Upcoming {#upcoming}
 ### Functional Dimension as a motivation for MUON
-MUON and functional basis analysis for ReLU NN
+Explore possible connections between functional dimension and MUON for ReLU neural networks. Will be exploring this with toy models similar to the work by Dr. Grigsby.
+    
     - [Functional Dimension](https://arxiv.org/pdf/2209.04036)
     - [MUON](https://kellerjordan.github.io/posts/muon/)
 
