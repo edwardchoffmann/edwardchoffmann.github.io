@@ -42,6 +42,19 @@ h1, h2, h3, h4, h5, h6 {
 .hero-photo {
   aspect-ratio: 1;
   border-radius: 0.5rem;
-  border: 2px dashed rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+/* Pandoc wraps block images in <p> */
+.hero-photo p {
+  margin: 0;
+  height: 100%;
+}
+
+.hero-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }

@@ -9,7 +9,9 @@ format:
 
 ::: {.hero .hero-with-photo}
 
-::: {.hero-photo aria-hidden="true"}
+::: {.hero-photo}
+
+![](./images/profile.png){alt="Edward Hoffmann"}
 
 :::
 
@@ -32,7 +34,7 @@ Fun fact: I used to play a lot of Magic: The Gathering and was once interviewed 
 ### Research & technical
 
 - Decision making under uncertainty: algorithmic game theory and reinforcement learning.
-- Deep learning dynamics: structural and geometric properties of learning in neural networks (inspired by [Florentin Guth](https://florentinguth.github.io/publication/rainbow/), [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/), and others).
+- Deep learning dynamics: structural and geometric properties of learning in neural networks.
 - System dynamics & control: ergodicity, optimal control, and resource allocation.
 
 ### Hobbies
@@ -40,7 +42,7 @@ Fun fact: I used to play a lot of Magic: The Gathering and was once interviewed 
 - Exercise
 - Reading history and philosophy
 - Cooking, gardening, and sewing
-- Strategy games like Magic: The Gathering
+- Strategy games
 
 ## Projects {#projects}
 
@@ -70,3 +72,6 @@ Exploring how depth and residual structure shape internal representations during
     - [Steve Brunton](https://www.youtube.com/@Eigensteve/playlists?theme=dark)
     - [Ben Moseley] (https://benmoseley.blog/)
 - Weather forecasting model
+- MUON and functional basis analysis for ReLU NN
+    - [Functional Dimension] (https://arxiv.org/pdf/2209.04036)
+    - [MUON] (https://kellerjordan.github.io/posts/muon/)
