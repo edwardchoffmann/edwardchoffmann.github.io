@@ -13,9 +13,6 @@ build/
 venv/
 ENV/
 
-# uv
-uv.lock
-
 # IDE
 .idea/
 .vscode/
@@ -31,6 +28,10 @@ Thumbs.db
 .Rhistory
 .RData
 .Ruserdata
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Testing / Coverage
 .coverage
@@ -47,5 +48,9 @@ htmlcov/
 .env
 .env.*
 
+# Quarto
+**/_site/
+**/_freeze/
 /.quarto/
+**/.quarto/
 **/*.quarto_ipynb
