@@ -2,6 +2,13 @@
 
 /*-- scss:rules --*/
 
+/* Match link color to surrounding text (theme $link-color; browser :visited) */
+a,
+a:hover,
+a:visited {
+  color: inherit;
+}
+
 /* Quarto can emit a second empty <header id="title-block-header"> when title: is set */
 #title-block-header:not(.quarto-title-block) {
   display: none;

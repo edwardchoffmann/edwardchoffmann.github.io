@@ -1,5 +1,5 @@
 ---
-title: "Fitting Hawkes processes on text-message data"
+title: "Fitting Hawkes Processes on Text-Message Data"
 date: 2026-04-05
 toc: true
 ---
