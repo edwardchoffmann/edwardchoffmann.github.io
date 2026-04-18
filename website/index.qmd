@@ -17,63 +17,32 @@ format:
 
 ::: {.hero-copy}
 
-Economics and statistics (UC Davis, '25). Currently working as a research and teaching assistant at UC Berkeley and as a quantitative researcher for Helix Consulting.
+Currently working as a research and teaching assistant at UC Berkeley and as a quantitative researcher for Helix. 
+
+I'm passionate about the theoretical foundations of decision making and learning. 
+
+My academic background includes graduate coursework in optimization, game theory, and classical ML. Economics and statistics (UC Davis, '25). 
 
 :::
 
 :::
-
-## About {#about}
-
-I'm passionate about the theoretical foundations of decision making and learning. My academic background includes graduate coursework in optimization, game theory, and classical ML.
-
-Fun fact: I used to play a lot of Magic: The Gathering and was once interviewed by MTGGoldfish.
 
 ## Interests {#interests}
 
-### Research & technical
 
 - Decision making under uncertainty: algorithmic game theory and reinforcement learning.
 - Deep learning dynamics: structural and geometric properties of learning in neural networks.
 - System dynamics & control: ergodicity, optimal control, and resource allocation.
 
-### Hobbies
-
-- Exercise
-- Reading history and philosophy
-- Cooking, gardening, and sewing
-- Strategy games
-
 ## Projects {#projects}
 
-### [A Bird’s-Eye View: Hawkes Processes in Texting Data](posts/hawkes-text-messages.qmd)
-
-Fitting and comparing Hawkes process models to text message data.
+#### [A Bird’s-Eye View: Hawkes Processes in Texting Data](posts/hawkes-text-messages.qmd)
+Inspired by Hawkes processes in statistical mechanics, wanted to apply it to a different self-exciting process. Modeled the arrival of text messages as a Hawkes process. Tried various kernels and various variable background rate methods to try and find the best fit.
 
 ## Upcoming {#upcoming}
-### Functional Dimension as a motivation for MUON
-Explore possible connections between functional dimension and MUON for ReLU neural networks. Will be exploring this with toy models similar to the work by Dr. Grigsby.
-    
-    - [Functional Dimension](https://arxiv.org/pdf/2209.04036)
-    - [MUON](https://kellerjordan.github.io/posts/muon/)
+#### Functional Dimension as a Motivation for MUON
+Explore possible connections between [functional dimension](https://arxiv.org/pdf/2209.04036) and [MUON](https://kellerjordan.github.io/posts/muon/) for ReLU neural networks. Will be exploring this with toy models similar to the work by Dr. Grigsby.
 
-### Learned geometry of “thinking” in transformers
+#### Learned Geometry of "Thinking" in Transformers
 
-Exploring how depth and residual structure shape internal representations during training—connecting ideas from [Florentin Guth](https://florentinguth.github.io/publication/rainbow/) on layer-wise dynamics with [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/) on geometry and optimization in deep networks. Hoping I can investigate this with local compute.
-
-### Random future ideas, potential projects (and notes for me)
-
-- Mess around with various RL architectures and use-cases
-- MtG RL (the dream)
-- Visual math exploration à la 3b1b about differential geometry, geodesics, and gradient descent
-    - [Differential geometry library](https://geomstats.github.io/index.html)
-- Jane Street puzzle solutions
-- Some geospatial analysis (pretty but I already do this stuff at work so not currently something I want to work on in my free time so we'll see)
-- Playing with signal processing/error correction methods
-- Explore/play with an ergodic system
-    - [Ergodic RL](https://ergodicityeconomics.com/2023/10/20/an-ergodicity-perspective-on-reinforcement-learning/)
-- PINNs / energy-based models
-    - [Energy based models](https://energy-based-model.github.io/Energy-based-Model-MIT/)
-    - [Steve Brunton](https://www.youtube.com/@Eigensteve/playlists?theme=dark)
-    - [Ben Moseley](https://benmoseley.blog/)
-- Weather forecasting model
+Explore how depth and residual structure shape internal representations during training—connecting ideas from [Florentin Guth](https://florentinguth.github.io/publication/rainbow/) on layer-wise distribution learning with [David Noel Ng](https://dnhkng.github.io/posts/rys-ii/) on layer-wise "thinking" in deep networks. Hoping I can investigate this with local compute.
