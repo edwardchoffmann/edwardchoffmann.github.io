@@ -1,5 +1,9 @@
 ---
-title: "Fitting Hawkes Processes on Text-Message Data"
+title: "A Bird’s-Eye View: Hawkes Processes in Texting Data"
+
+
+description: |
+  Inspired by Hawkes processes in statistical mechanics, wanted to apply it to a different self-exciting process. Modeled the arrival of text messages as a Hawkes process. Tried various kernels and various variable background rate methods to try and find the best fit.
 date: 2026-04-05
 toc: true
 ---

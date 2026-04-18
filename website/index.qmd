@@ -5,6 +5,14 @@ toc: false
 format:
   html:
     title-block-style: none
+listing:
+  id: project-hawkes
+  contents: posts/hawkes-text-messages.qmd
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  fields: [title, description]
+  max-items: 1
 ---
 
 ::: {.hero .hero-with-photo}
@@ -36,8 +44,8 @@ My academic background includes graduate coursework in optimization, game theory
 
 ## Projects {#projects}
 
-#### [A Bird’s-Eye View: Hawkes Processes in Texting Data](posts/hawkes-text-messages.qmd)
-Inspired by Hawkes processes in statistical mechanics, wanted to apply it to a different self-exciting process. Modeled the arrival of text messages as a Hawkes process. Tried various kernels and various variable background rate methods to try and find the best fit.
+::: {#project-hawkes}
+:::
 
 ## Upcoming {#upcoming}
 #### Functional Dimension as a Motivation for MUON

@@ -65,3 +65,38 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
   display: block;
 }
+
+/* Default listing uses flex + fixed flex-basis on .body/.metadata — leaves a gap when there’s no image */
+#listing-project-hawkes .quarto-post {
+  display: block;
+}
+
+#listing-project-hawkes .quarto-post .metadata {
+  display: none;
+}
+
+#listing-project-hawkes .quarto-post .body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+#listing-project-hawkes .listing-description {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+#listing-project-hawkes .listing-description p:last-child {
+  margin-bottom: 0;
+}
+
+/*
+ * YAML `description` under the title: Quarto sets
+ * `#title-block-header.quarto-title-block.default .description { margin-top: 0 }`
+ * which beats `.quarto-title-block...` (no ID). Match that specificity so spacing applies.
+ */
+#title-block-header.quarto-title-block.default .description {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-top: 0.875rem;
+}
